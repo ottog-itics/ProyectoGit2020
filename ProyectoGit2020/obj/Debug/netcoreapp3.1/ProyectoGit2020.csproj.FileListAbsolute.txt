@@ -1,0 +1,13 @@
+C:\Users\grama\source\repos\ProyectoGit2020\ProyectoGit2020\bin\Debug\netcoreapp3.1\ProyectoGit2020.exe
+C:\Users\grama\source\repos\ProyectoGit2020\ProyectoGit2020\bin\Debug\netcoreapp3.1\ProyectoGit2020.deps.json
+C:\Users\grama\source\repos\ProyectoGit2020\ProyectoGit2020\bin\Debug\netcoreapp3.1\ProyectoGit2020.runtimeconfig.json
+C:\Users\grama\source\repos\ProyectoGit2020\ProyectoGit2020\bin\Debug\netcoreapp3.1\ProyectoGit2020.runtimeconfig.dev.json
+C:\Users\grama\source\repos\ProyectoGit2020\ProyectoGit2020\bin\Debug\netcoreapp3.1\ProyectoGit2020.dll
+C:\Users\grama\source\repos\ProyectoGit2020\ProyectoGit2020\bin\Debug\netcoreapp3.1\ProyectoGit2020.pdb
+C:\Users\grama\source\repos\ProyectoGit2020\ProyectoGit2020\obj\Debug\netcoreapp3.1\ProyectoGit2020.csprojAssemblyReference.cache
+C:\Users\grama\source\repos\ProyectoGit2020\ProyectoGit2020\obj\Debug\netcoreapp3.1\ProyectoGit2020.AssemblyInfoInputs.cache
+C:\Users\grama\source\repos\ProyectoGit2020\ProyectoGit2020\obj\Debug\netcoreapp3.1\ProyectoGit2020.AssemblyInfo.cs
+C:\Users\grama\source\repos\ProyectoGit2020\ProyectoGit2020\obj\Debug\netcoreapp3.1\ProyectoGit2020.csproj.CoreCompileInputs.cache
+C:\Users\grama\source\repos\ProyectoGit2020\ProyectoGit2020\obj\Debug\netcoreapp3.1\ProyectoGit2020.dll
+C:\Users\grama\source\repos\ProyectoGit2020\ProyectoGit2020\obj\Debug\netcoreapp3.1\ProyectoGit2020.pdb
+C:\Users\grama\source\repos\ProyectoGit2020\ProyectoGit2020\obj\Debug\netcoreapp3.1\ProyectoGit2020.genruntimeconfig.cache
