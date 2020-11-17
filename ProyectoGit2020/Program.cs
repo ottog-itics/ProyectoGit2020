@@ -11,7 +11,7 @@ namespace ProyectoGit2020
             Console.WriteLine("-------------------- Menú -------------------");
             Console.WriteLine("\t 1) Agregar empleado.");
             Console.WriteLine("\t 2) Listado de empleados.");
-            Console.WriteLine("\t 3) Salir");            
+            Console.WriteLine("\t 3) Salir");
         }
     }
 }
