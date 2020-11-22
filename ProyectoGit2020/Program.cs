@@ -20,13 +20,30 @@ namespace ProyectoGit2020
             switch (Opcion)
             {
                 case '1':
-                    Console.WriteLine("---------Agregar empleado---------");
+                    Console.WriteLine("---------Agregar nuevo empleado---------");
                     Console.WriteLine("Ingrese el nombre del empleado: ");
                     string Nombre = Console.ReadLine();
                     Console.WriteLine("Ingeres el genero del empleado:");
                     string Genero = Console.ReadLine();
                     Console.WriteLine("Ingrese el salario base del empleado:");
                     double Salario = double.Parse(Console.ReadLine());
+                    Console.WriteLine("Seleccione el tipo de empleado a crear:");
+                    Console.WriteLine("\t 1) Gerente");
+                    Console.WriteLine("\t 2) Vendedor");
+                    Console.Write("Tipo: ");
+                    char TipoEmpleado = char.Parse(Console.ReadLine());
+                    switch (TipoEmpleado)
+                    {
+                        case '1':
+                            Console.WriteLine();
+                            break;
+                        case '2':
+                            Console.WriteLine();
+                            break;
+                        default:
+                            Console.WriteLine("Tipo invalido.");
+                            break;
+                    }
                     break;
                 case '2':
                     Console.WriteLine("---------Listado de empleados---------");
