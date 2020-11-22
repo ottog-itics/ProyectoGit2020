@@ -12,13 +12,15 @@ namespace ProyectoGit2020
         {
 
         }
-        public Gerente(string tipoEmpleado, string nombre, double salario)
+        public Gerente(string tipoEmpleado, string nombre, double salario, string genero, string puestoGerente)
         {
             Salario = salario;
             Nombre = nombre;
             TipoEmpleado = tipoEmpleado;
+            Genero = genero;
+            TipoEmpleado = tipoEmpleado;
         }
-
+        public string PuestoGerente { get; set; }
         public override double CalcularSalario()
         {
             double BonoIncentivo = Salario * 0.05;

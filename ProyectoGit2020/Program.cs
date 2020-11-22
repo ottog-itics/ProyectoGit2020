@@ -35,7 +35,9 @@ namespace ProyectoGit2020
                     switch (TipoEmpleado)
                     {
                         case '1':
-                            Console.WriteLine();
+                            Console.WriteLine("Ingresa el puesto del gerente: ");
+                            string Puesto = Console.ReadLine();
+                            Gerente gerente = new Gerente("Gerente", Nombre, Salario, Genero, Puesto);
                             break;
                         case '2':
                             Console.WriteLine();
