@@ -45,6 +45,9 @@ namespace ProyectoGit2020
                             foreach (var ger in gerentes)
                             {
                                 Console.WriteLine(ger.Nombre);
+                                Console.WriteLine(ger.TipoEmpleado);
+                                Console.WriteLine(ger.PuestoGerente);
+                                Console.WriteLine(ger.CalcularSalario());
                             }
                             break;
                         default:
