@@ -5,7 +5,7 @@ namespace ProyectoGit2020
 {
     class Program
     {
-        List<Gerente> gerentes = new List<Gerente>();
+        static List<Gerente> gerentes = new List<Gerente>();
         List<Vendedor> vendedores = new List<Vendedor>();
         static void Main(string[] args)
         {
@@ -38,9 +38,14 @@ namespace ProyectoGit2020
                             Console.WriteLine("Ingresa el puesto del gerente: ");
                             string Puesto = Console.ReadLine();
                             Gerente gerente = new Gerente("Gerente", Nombre, Salario, Genero, Puesto);
+                            gerentes.Add(gerente);
                             break;
                         case '2':
                             Console.WriteLine();
+                            foreach (var ger in gerentes)
+                            {
+                                Console.WriteLine(ger.Nombre);
+                            }
                             break;
                         default:
                             Console.WriteLine("Tipo invalido.");
