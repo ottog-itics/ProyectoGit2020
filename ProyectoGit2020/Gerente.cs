@@ -12,7 +12,7 @@ namespace ProyectoGit2020
         {
 
         }
-        public Gerente(string tipoEmpleado, string nombre, double salario, string genero, string puestoGerente)
+        public Gerente(string tipoEmpleado, string nombre, double salario, char genero, string puestoGerente)
         {
             Salario = salario;
             Nombre = nombre;
