@@ -24,7 +24,7 @@ namespace ProyectoGit2020
                     Console.WriteLine("Ingrese el nombre del empleado: ");
                     string Nombre = Console.ReadLine();
                     Console.WriteLine("Ingeres el genero del empleado:");
-                    string Genero = Console.ReadLine();
+                    char Genero = char.Parse(Console.ReadLine());
                     Console.WriteLine("Ingrese el salario base del empleado:");
                     double Salario = double.Parse(Console.ReadLine());
                     Console.WriteLine("Seleccione el tipo de empleado a crear:");
@@ -53,10 +53,13 @@ namespace ProyectoGit2020
                     Console.WriteLine();
                     foreach (var ger in gerentes)
                     {
+                        Console.WriteLine("Datos del gerente:");
                         Console.WriteLine(ger.Nombre);
                         Console.WriteLine(ger.TipoEmpleado);
                         Console.WriteLine(ger.PuestoGerente);
                         Console.WriteLine(ger.CalcularSalario());
+                        Console.WriteLine("-----------------------------------------");
+                        Console.WriteLine();
                     }
                     break;
                 case '3':
