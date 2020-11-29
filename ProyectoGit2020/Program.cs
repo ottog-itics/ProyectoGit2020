@@ -41,14 +41,7 @@ namespace ProyectoGit2020
                             gerentes.Add(gerente);
                             break;
                         case '2':
-                            Console.WriteLine();
-                            foreach (var ger in gerentes)
-                            {
-                                Console.WriteLine(ger.Nombre);
-                                Console.WriteLine(ger.TipoEmpleado);
-                                Console.WriteLine(ger.PuestoGerente);
-                                Console.WriteLine(ger.CalcularSalario());
-                            }
+                            
                             break;
                         default:
                             Console.WriteLine("Tipo invalido.");
@@ -57,6 +50,14 @@ namespace ProyectoGit2020
                     break;
                 case '2':
                     Console.WriteLine("---------Listado de empleados---------");
+                    Console.WriteLine();
+                    foreach (var ger in gerentes)
+                    {
+                        Console.WriteLine(ger.Nombre);
+                        Console.WriteLine(ger.TipoEmpleado);
+                        Console.WriteLine(ger.PuestoGerente);
+                        Console.WriteLine(ger.CalcularSalario());
+                    }
                     break;
                 case '3':
                     Console.WriteLine("---------Saliendo. Adiós.---------");
