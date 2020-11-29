@@ -53,11 +53,12 @@ namespace ProyectoGit2020
                     Console.WriteLine();
                     foreach (var ger in gerentes)
                     {
-                        Console.WriteLine("Datos");
+                        Console.WriteLine("Datos del gerente:");                       
                         Console.WriteLine($"\tNombre: {ger.Nombre}");
                         Console.WriteLine($"\tTipo gerente: {ger.TipoEmpleado}");
                         Console.WriteLine($"\tPuesto: {ger.PuestoGerente}");
                         Console.WriteLine($"\tSalario: {ger.CalcularSalario()}");
+                        Console.WriteLine();
                     }
                     break;
                 case '3':
