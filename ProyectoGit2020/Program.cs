@@ -6,7 +6,8 @@ namespace ProyectoGit2020
     class Program
     {
         static List<Gerente> gerentes = new List<Gerente>();
-        List<Vendedor> vendedores = new List<Vendedor>();
+        static List<Vendedor> vendedores = new List<Vendedor>();
+        static List<Secretaria> secretarias = new List<Secretaria>();
         static void Main(string[] args)
         {
             Console.WriteLine("Inicio del proyecto!");
@@ -41,7 +42,20 @@ namespace ProyectoGit2020
                             gerentes.Add(gerente);
                             break;
                         case '2':
-                            
+                            Console.WriteLine("Ingresa ventas: ");
+                            double ventas = double.Parse(Console.ReadLine());
+                            Console.WriteLine("Ingresa comisiones: ");
+                            double comisiones = double.Parse(Console.ReadLine());
+                            Vendedor vendedor = new Vendedor("Vendedor", Nombre, ventas, Salario, comisiones);
+                            vendedores.Add(vendedor);
+                            break;
+                        case '3':
+                            Console.WriteLine("Ingresa el tipo de secretaria:");
+                            string tipoSecretaria = Console.ReadLine();
+                            Console.WriteLine("Ingresa el area de trabajo:");
+                            string areaTrabajo = Console.ReadLine();
+                            Secretaria secretaria = new Secretaria(tipoEmpleado, Nombre, Genero, Salario, tipoSecretaria, areaTrabajo);
+                            secretarias.Add(secretaria);
                             break;
                         default:
                             Console.WriteLine("Tipo invalido.");

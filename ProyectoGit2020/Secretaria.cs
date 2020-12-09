@@ -11,8 +11,12 @@ namespace ProyectoGit2020
 
         }
 
-        public Secretaria(string tipoSecretaria, string area)
+        public Secretaria(string tipoEmpleado, string nombre, char genero, double salario, string tipoSecretaria, string area)
         {
+            Nombre = nombre;
+            Salario = salario;
+            TipoEmpleado = tipoEmpleado;
+            Genero = genero;
             TipoSecretaria = tipoSecretaria;
             Area = area;
         }
